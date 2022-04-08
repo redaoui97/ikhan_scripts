@@ -1,5 +1,5 @@
 #/bin/ksh
-countdown=36000
+countdown=28800
 while [[ ${countdown} -ge 0 ]]
 do
         sleep 1
