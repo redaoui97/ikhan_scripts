@@ -1,8 +1,7 @@
 #/bin/ksh
-countdown=28800
-while [[ ${countdown} -ge 0 ]]
+while [[ $1 -ge 0 ]]
 do
         sleep 1
-        countdown=$(( ${countdown} - 1 ))
+        countdown=$(( $1 - 1 ))
 done
 pmset displaysleepnow
