@@ -23,6 +23,8 @@ do
 				open https://www.youtube.com/watch?v=A9GMqjLbIpQ
 		fi
 done
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/rnabil/Desktop/hh/pg.png"'
+set desktop picture to POSIX file  "/Users/rnabil/Desktop/hh/pg.png"
 pmset displaysleepnow
 while (( $count < 10 ))
 do
