@@ -1,4 +1,5 @@
 #/bin/bash
+#outdated script, fucking staff blocking everything
 count=$1
 if [ $2 == "m" ]
 	then
@@ -23,8 +24,8 @@ do
 				open https://www.youtube.com/watch?v=A9GMqjLbIpQ
 		fi
 done
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/rnabil/Desktop/hh/pg.png"'
-set desktop picture to POSIX file  "/Users/rnabil/Desktop/hh/pg.png"
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "./pg.png"'
+set desktop picture to POSIX file  "./hh/pg.png"
 pmset displaysleepnow
 while (( $count < 10 ))
 do
